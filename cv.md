@@ -4,7 +4,7 @@
 
 ### CONTACT ME ###
 +37529-360-70-71
-mikoelectrik@gmail.com
+3607071@gmail.com
 Belarus, Minsk
 
 ### ABOUT ME: ###
@@ -16,6 +16,12 @@ I'm an enthusiastic student of The Rolling Scopes School, who likes to take init
 * Wordpress, Joomla, Bitrix (webmaster);
 * Adobe Photoshop, Figma, Avocode, WS Code, PhpStorm;
 * English B1 level (certificate Streamline school);
+
+### Code Example: ###
+  function century(year) {
+    // Finish this :)
+  return Math.floor((year -1) / 100) + 1;
+  }
 
 ### EXPERIENCE: ###
 I have no experience in developing. I finished HTML/CSS/Jquery course. I have some training projects. You can see the code using the links above.
