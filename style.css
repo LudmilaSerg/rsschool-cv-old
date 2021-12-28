@@ -1,0 +1,11 @@
+.container {
+    width: 1440px;
+}
+
+.cv{
+    display: flex;
+    justify-content: space-between;
+}
+.cv_left-photo img{
+    width: 200px;
+}
