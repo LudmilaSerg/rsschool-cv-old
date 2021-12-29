@@ -1,11 +1,33 @@
 .container {
-    width: 1440px;
+    width: 1170px;
+    margin: 0 auto;
 }
 
-.cv{
+.header{
     display: flex;
     justify-content: space-between;
 }
 .cv_left-photo img{
     width: 200px;
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+}
+ul, li, a {
+    text-decoration: none;
+    color: #000;
+}
+.about_left{
+    width: 70%;   
+    margin-right: 10px;
+    background-color: rgb(12, 12, 73);
+    color: #fff;
+}
+.about_left a{
+    color: #fff;
+}
+.about_right{
+    margin-left: 20px;
+    margin-right: 20px;
 }
