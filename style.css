@@ -77,3 +77,23 @@ pre{
 .cv_right-aboutme, .code, .cv_right-skills {
     margin-top: 40px;
 }
+
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+.footer img{
+    width: 120px;
+}
+.git-link{
+    display: flex;
+    justify-content: space-around;    
+    align-items:center;
+}
+.git-link img{
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+}
