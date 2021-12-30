@@ -1,14 +1,36 @@
 .container {
-    width: 1170px;
+    width: 1200px;
     margin: 0 auto;
 }
-
+.cv{
+    font-family: Poppins, sans-serif;
+    line-height: 30px;
+    font-size: 16px;
+}  
+h1{
+    color: #104780;
+}
 .header{
-    display: flex;
-    justify-content: space-between;
+    
+}
+.header::after{
+    content: '';
+    display: block;
+    height: 1px;
+    background: #000;
+    padding: 0 auto 20px;
+    
+}
+.header_title{
+    text-align:center;
 }
 .cv_left-photo img{
     width: 200px;
+    display:block;
+    margin: auto;
+}
+.round{
+    border-radius: 500px;      
 }
 .about{
     display: flex;
@@ -17,17 +39,41 @@
 ul, li, a {
     text-decoration: none;
     color: #000;
+    list-style-type: none;
 }
-.about_left{
-    width: 70%;   
-    margin-right: 10px;
-    background-color: rgb(12, 12, 73);
+.about_left{      
+    padding-right: 10px;
+    padding-left: 30px;
+    background-color: #104780;
     color: #fff;
+    min-width: 30%;
 }
 .about_left a{
-    color: #fff;
+    color: #fff;   
+}
+
+.cv_left-contact{
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.cv_left-code{
+    margin-bottom: 40px;
+}
+.cv_left-skills{
+    margin-bottom: 80px;
 }
 .about_right{
     margin-left: 20px;
     margin-right: 20px;
+    max-width: 60%;
+}
+pre span {
+    font-weight: bold;
+    
+}
+pre{
+    background: #f5f2f0;
+}
+.cv_right-aboutme, .code, .cv_right-skills {
+    margin-top: 40px;
 }
