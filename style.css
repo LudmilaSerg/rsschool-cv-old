@@ -47,31 +47,31 @@ ul, li, a {
 }
 
 .phone {
-    background: url(../img/icon_phone.png) no-repeat;
+    background: url(img/icon_phone.png) no-repeat;
     padding-left: 35px;
     margin-left: -45px;
 }
 
 .mail {
-    background: url(../img/icon_mail.png) no-repeat;
+    background: url(img/icon_mail.png) no-repeat;
     padding-left: 35px;
     margin-left: -45px;
 }
 
 .geo {
-    background: url(../img/icon_geo.png) no-repeat;
+    background: url(img/icon_geo.png) no-repeat;
     padding-left: 35px;
     margin-left: -45px;
 }
 
 .git {
-    background: url(../img/icon_github.png) no-repeat;
+    background: url(img/icon_github.png) no-repeat;
     padding-left: 35px;
     margin-left: -45px;
 }
 
 .cv_left-education ul li {
-    background: url(../img/icon_check.png) no-repeat;
+    background: url(img/icon_check.png) no-repeat;
     padding-left: 35px;
     margin-left: -45px;
 }
@@ -108,7 +108,7 @@ ul, li, a {
 }
 
 .cv_right-skills ul li {
-    background: url(../img/icon_check_black.png) no-repeat;
+    background: url(img/icon_check_black.png) no-repeat;
     padding-left: 35px;
     margin-left: -45px;
 }
